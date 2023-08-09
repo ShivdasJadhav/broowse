@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  height: auto;
+  margin-top: 12%;
+  font-size: 1rem;
+}
+input{
+  border-bottom: 2px solid gray;
+}
+header {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+  min-height: 3rem;
+}
+
+#me {
+  width: 15rem;
+  height: auto;
+  float: left;
+  border: 0.3rem dashed  rgb(141, 143, 7);
+  border-radius: 10rem;
+  margin-right: 1rem;
+}
+#dev,#skill{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  float: right;
+  margin-right: 0.2rem;
+}
+#fd1{
+  border-radius:0 15rem 0 0;
+  background: rgb(211, 172, 172);
+}
+#fd2{
+  border-radius: 15rem 0 0 0;
+  background: rgb(193, 102, 102);
+}
+.footer{
+  background-color: rgb(196, 94, 94);
+  width: 100%;
+  border-radius:0 120% 0 0 ;
+}
+.foot{
+  height: 30rem;
+  background-color: rgb(241, 216, 142);
+  width: 100%;
+  border-radius:100% 0 0 0 ;
+}
+.icons{
+  position: relative;
+  
+}
+#fb,#chef,#linkdin{
+  cursor: pointer;
+}
+#fb{
+  transform: scale(0.6);
+  left: 0.5rem;
+  margin: 0;
+}
+#chef{
+  transform: scale(0.6);
+  margin: 0;
+  left: 3.3rem;
+  margin-top: -0.3rem;
+
+}
+#linkdin{
+  transform: scale(0.7);
+  margin-top: 0.2rem;
+}
+.cont{
+  margin-top: 3rem;
+  justify-content: baseline;
+  display: inline-block;
+  align-items: right;
+  margin-right: 4rem;
+}
+h3{
+  display: inline-block;
+  color: rgb(99, 99, 99);
+}
+.cont>span{
+  display: block;
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont>p{
+  font-family: 'Times New Roman', Times, serif;
+  color: grey;
+}

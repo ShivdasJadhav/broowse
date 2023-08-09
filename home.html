@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Searcher</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <div
+      id="container"
+      class="w-full h-fit sm:w-9/12 md:w-6/12 mx-auto bg-white rounded-tl-2xl rounded-tr-2xl"
+    >
+      <div class="flex w-full gap-4x bg-blue-100 rounded-tl-2xl rounded-tr-2xl">
+        <button
+          id="img_btn"
+          class="flex-1 text-center bold lg p-2 px-4 bg-blue-600 hover:bg-blue-700 text-white mx-1 border rounded-md "
+          onclick="home()"
+        >
+          Normal search
+        </button>
+        <button
+          id="img_btn"
+          class="flex-1 text-center bold lg p-2 px-4 bg-blue-600 hover:bg-blue-700 text-white mx-1 border rounded-md"
+          onclick="image_search()"
+        >
+          Image search
+        </button>
+
+        <button
+          id="adv_btn"
+          class="flex-1 text-center bold lg p-2 px-4 bg-blue-600 hover:bg-blue-700 text-white mx-1 border rounded-md "
+          onclick="advance_search()"
+        >
+          Adv search
+        </button>
+      </div>
+      <div id="content" class="my-32"></div>
+      <div>
+        <div class="flex my-10">
+          <img
+            src="./imgs/R-removebg-preview.png"
+            alt="normal Search"
+            class="flex-1 w-6/12 transform scale-75"
+          />
+          <div class="flex-3 text-center my-auto mx-auto">
+            <h2 class="text-orange-600 bold">Normal Search</h2>
+            <p class="flex-1 text-center text-justify p-6">
+              In Normal Search One Can Perform Normal Query Searching same as
+              google Search. To Implement this, Click on Button Given Above i.e
+              <span class="bold lg text-blue-500 hover:cursor-pointer"
+                >Normal Search.</span
+              >
+              Type your Queries, submit it and get the results.
+            </p>
+          </div>
+        </div>
+        <div class="flex my-10">
+          <div class="m-auto">
+            <h2 class="text-orange-600 bold">Image Search</h2>
+            <p class="flex-1 text-center text-justify p-6">
+              here We have Implemented the feature "Google Image Search" which
+              brings-up all the image results with respect to your query. To
+              Implement this, Click on
+              <span class="bold lg text-blue-500 hover:cursor-pointer"
+                >Image Search</span
+              >
+            </p>
+          </div>
+          <img
+            src="./imgs/brand-removebg-preview.png"
+            alt="imagge Search"
+            class="flex-1 w-6/12 transform scale-75 align-center"
+          />
+        </div>
+        <div class="flex my-10">
+          <img
+            src="./imgs/google-advanced-search-1374149430-removebg-preview.png"
+            alt="Advance Search"
+            class="flex-1 transform scale-75 w-6/12"
+          />
+          <div class="m-auto">
+            <h2 class="text-orange-600 bold">Advance Search</h2>
+            <p class="flex-1 text-center text-justify p-6">
+              In "Google Advance Search" one can get the results as per his/her
+              requirements based on some criterias. To Implement this, Click on
+              <span class="bold lg text-blue-500 hover:cursor-pointer"
+                >Advance Search.</span
+              >
+              Type Your Queries According to your Criterias and Submit them.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer  ">
+        <div class="foot items-center flex mx-auto h-48">
+          <div class="icons h-fit w-fit relative top-8 mx-auto justify-center flex flex-1">
+            <a href="https://www.facebook.com/profile.php?id=100080796021068"
+               class="h-12  w-12"><img id="fb" src="./imgs/fb.png" alt=""
+            /></a>
+            <a href="https://www.codechef.com/users/kalikeya"
+               class="h-12 w-12"><img id="chef" src="./imgs/chef.png" alt=""
+            /></a>
+            <a href="https://www.linkedin.com/in/shivdas-s-jadhav-7b8096210/" class="h-12 w-12">
+              <img id="linkdin" src="./imgs/linkdin.png" alt=""
+            /></a>
+          </div>
+          <div class="cont flex-1 sm bold">
+            
+            <span
+              >
+              <p>jshivdas07@gmail.com</p></span
+            >
+            <span
+              >
+              <p>+91 8767835325</p></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

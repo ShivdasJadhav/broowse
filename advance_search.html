@@ -1,0 +1,32 @@
+<div>
+  <img
+    id="adv_png"
+    src="imgs/advance_search.png"
+    alt="search image"
+    class="mx-auto w-36 m-6"
+  />
+  <p class="text-orange-700">🕵🏽‍♂️ Search for your Queries like a Detective...</p><br/>
+  <form action="https://www.google.com/search?as_q=&as_epq=&as_oq=&as_eq=">
+    <div class="flex flex-col mx-auto">
+      <div class="flex flex-col sm:flex-row gap-x-6 mx-auto text-gray-900">
+        <label for="a" class="text-left">All these words:</label>
+        <input id="a" value="" name="as_q" type="text"  class="rounded-lg text-center text-black sm:h-8 sm"/>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-x-6 my-4 mx-auto  text-gray-900">
+        <label for="b" class="h-8 text-left">this exact word:</label>
+        <input id="b" value="" name="as_epq" type="text"class="rounded-lg text-center text-black h-8 sm" />
+      </div>
+      <div class="flex flex-col sm:flex-row gap-x-6 my-4 mx-auto  text-gray-900">
+        <label for="c" class="h-8 text-left">any of these words:</label>
+        <input id="c" value="" name="as_oq" type="text" class="rounded-lg text-center text-black h-8 sm"/>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-x-6 my-4 mx-auto  text-gray-900">
+        <label for="d" class="h-8 text-left"> none of these words:</label>
+        <input id="d" value="" name="as_eq" type="text" class="rounded-lg text-center text-black h-8 sm"/>
+      </div>
+    </div>
+
+    <input id="adv_button" type="submit" class="my-3 bg-blue-600 px-10 text-white bold lg rounded-lg h-8"
+    name="tbs" />
+  </form>
+</div>
